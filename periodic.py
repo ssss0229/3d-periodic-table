@@ -127,8 +127,8 @@ def create_bar_mesh(x_center, y_center, z_height, bar_width_x, bar_width_y, hove
 # --- 각 정보별 Z축 압축 계수를 저장할 딕셔너리 ---
 z_axis_compression_factors = {
     "원자량": 1.0,
-    "공유 반지름(실험값)": 1.0,
-    "반데르발 반지름(실험값)": 1.0,
+    "공유 반지름": 1.0,
+    "반데르발 반지름": 1.0,
     "전기음성도": 4.0,
     "전자친화도": 0.8,
     "제1 이온화 에너지(kJ/mol)": 1.8,
@@ -317,8 +317,8 @@ st.header("3D 주기율표")
 
 value_options = {
     "원자량": "atomic_weight",
-    "공유 반지름(실험값)": "covalent_radius_exp",
-    "반데르발 반지름(실험값)": "van_der_waals_radius_exp",
+    "공유 반지름": "covalent_radius_exp",
+    "반데르발 반지름": "van_der_waals_radius_exp",
     "전기음성도": "electronegativity",
     "전자친화도": "electron_affinity",
     "제1 이온화 에너지(kJ/mol)": "first_ionization_energy",
