@@ -564,7 +564,7 @@ if element_info_to_display:
             if image_path:
                 st.image(image_path,
                          caption=f"{element_info_to_display['kor_name']} 원자 모형",
-                         width=380)
+                         use_container_width=True)
             else:
                 st.info("해당 원소의 원자 모형 이미지를 찾을 수 없습니다.")
 
